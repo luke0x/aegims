@@ -1,5 +1,4 @@
 Aegims::Application.routes.draw do
-	post '/email_processor' => 'griddler/emails#create'
   resources :posts
   root "posts#index"
 
